@@ -1,0 +1,21 @@
+{
+  "name": "dirscanner",
+  "version": "0.0.1",
+  "description": "Analyze a directory substructure and return it as an object.",
+  "main": "dirscanner.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "dir",
+    "scan",
+    "analyze",
+    "structure"
+  ],
+  "author": "Simon Ljungberg <hi@iamsim.me>",
+  "license": "ISC"
+}

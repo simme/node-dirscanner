@@ -20,8 +20,6 @@ var Dir     = require('./lib/directory');
 // Set up internal state and inherit from EventEmitter.
 //
 var Dirscanner = function Dirscanner(target, ignore) {
-  target = path.normalize(path.join(process.cwd(), target));
-
   emitter.call(this);
   this._target  = target;   // Source path
   this._ignore  = ignore;   // File patterns to ignore

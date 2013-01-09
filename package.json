@@ -1,6 +1,6 @@
 {
   "name": "dirscanner",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Analyze a directory substructure and return it as an object.",
   "main": "dirscanner.js",
   "directories": {
